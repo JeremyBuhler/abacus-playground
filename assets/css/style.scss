@@ -85,3 +85,25 @@ h3 {
 .active a {
     color: $section-headings-color;
 }
+
+/* css added for demonstration/practice purposes, feel free to delete, edit, add */
+
+h1 h2 h3 h4 {
+  color: blue
+}    
+
+.screenshot img {
+  padding-top: 30px; 
+  padding-bottom: 30px; 
+  margin-left: 50px;
+}
+
+body {
+  background-color: #fff8e7
+}
+
+.spacer {
+  display: block;
+  height: 20px;
+}
+  
