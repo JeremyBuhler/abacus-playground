@@ -9,7 +9,7 @@
 ## <a name="boolean" />Boolean logical operators
 **Boolean logical operators** greatly improve the power and efficiency of queries. By default, search terms are connected with the Boolean `OR` operator. Thus, the search `adult literacy survey` will match material containing "adult", "literacy", or "survey", but not necessarily all three. For results that contain all search terms, use the `AND` operator: `adult AND literacy AND survey`. 
 
-<span class="spacer"></span>
+<span class="spacer">&nbsp;</span>
 In addition to the `AND` and `OR` operators, other useful Boolean operators include `NOT`, `+`, and `-`. 
 
 The `NOT` and `-` operators function similarly, requiring that the term following the operator not be present in search results, while the `+` operator requires that the term is present. For instance, `literacy NOT child`, or `literacy -child`, will return all results containing "literacy" without the term "child", while `+"adult literacy" survey` returns results with the phrase "adult literacy" that may or may not contain the term "survey".
