@@ -88,22 +88,35 @@ h3 {
 
 /* css added for demonstration/practice purposes, feel free to delete, edit, add */
 
-h1 h2 h3 h4 {
+/* apply css properties to one html element (body) */
+body {
+  background-color: #fff8e7
+}
+
+/* apply css properties to several html elements (body) */
+h1, h2, h3, h4 {
   color: blue
 }    
 
-.screenshot img {
+/* apply css properties to html "img" elements that have the class "screenshot" */
+img.screenshot {
   padding-top: 30px; 
   padding-bottom: 30px; 
   margin-left: 50px;
 }
 
-body {
-  background-color: #fff8e7
-}
-
+/* apply css properties to any html element  that has the specified  class */
 .spacer {
   display: block;
-  height: 20px;
+  min-width: 1px;
+  height: 100px;
 }
-  
+ 
+.note {
+  display: block;
+  border: 1px solid blue;
+  background-color: #add8e6;
+  margin: 10px 40px;
+  padding: 5px;
+  font-size: 0.8em;
+}
