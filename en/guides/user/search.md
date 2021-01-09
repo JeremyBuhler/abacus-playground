@@ -9,6 +9,7 @@
 ## <a name="boolean" />Boolean logical operators
 **Boolean logical operators** greatly improve the power and efficiency of queries. By default, search terms are connected with the Boolean `OR` operator. Thus, the search `adult literacy survey` will match material containing "adult", "literacy", or "survey", but not necessarily all three. For results that contain all search terms, use the `AND` operator: `adult AND literacy AND survey`. 
 
+<span class="spacer"></span>
 In addition to the `AND` and `OR` operators, other useful Boolean operators include `NOT`, `+`, and `-`. 
 
 The `NOT` and `-` operators function similarly, requiring that the term following the operator not be present in search results, while the `+` operator requires that the term is present. For instance, `literacy NOT child`, or `literacy -child`, will return all results containing "literacy" without the term "child", while `+"adult literacy" survey` returns results with the phrase "adult literacy" that may or may not contain the term "survey".
@@ -28,7 +29,7 @@ For added control over the Boolean logic of a search, users can **group clauses 
 ## <a name="scope" />Search scope
 Abacus supports two distinct **search scopes**: "global" and "local". Using the search box on the left-hand side of the user interface will limit results to the dataverse currently selected (a "local" search), while using the search box through selecting the "Search" drop-down menu at the top of the user interface will execute a query on all dataverses in the Abacus Data Network (a "global" search).
 
-<img style="padding-top: 30px; padding-bottom: 30px; margin-left: 50px" src="images/global_search.png" width="80%"/>
+<img class="screenshot" src="images/global_search.png" width="80%"/>
 
 ## <a name="field" />Querying specific fields
 Users can also narrow their search within Abacus by **querying specific fields**. The syntax for this requires, first, specifiying the field to be searched (e.g. `title`), followed by a `:`, and then the term to search for: `title:financial`. (NOTE: There is no space between the colon and the search term. )
